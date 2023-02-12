@@ -4,7 +4,8 @@ html {
 }
 body {
     background-color: #000000;
-    max-width: 450px;
+    color: #ffffff;
+    min-width: 485px;
 }
 h1{
    text-align: center;
@@ -19,8 +20,13 @@ nav {
     color: #ffffff
 }
 nav li {
-    list-style:none;
-    display:inline-block;
-    margin:10px;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
     text-align: center;
+}
+nav a {
+    color: #ffffff;
+    text-transform: uppercase
 }
