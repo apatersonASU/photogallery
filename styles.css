@@ -4,7 +4,6 @@ html {
 }
 body {
     background-color: #000000;
-    color: #ffffff;
     min-width: 485px;
 }
 h1{
@@ -38,7 +37,13 @@ h2 {
 #about, #gallery {
     background-color: #ffffff;
     color: #000000;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 p {
     font-size: 1.25em;
+}
+div {
+    display: grid;
+    grid-template-columns: 1fr;
 }
